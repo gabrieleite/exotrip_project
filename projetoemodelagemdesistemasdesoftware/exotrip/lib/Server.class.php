@@ -6,7 +6,7 @@ class Server
 	 * @var [string]
 	 * @since 1.0
 	 */
-	static private $dominio = 'teste.com.br';
+	static private $dominio = 'exotrip.com.br';
 
 	/**
 	 * [retorna se está no server online ou local]

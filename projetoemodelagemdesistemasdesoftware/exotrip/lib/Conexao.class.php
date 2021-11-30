@@ -1,6 +1,5 @@
 <?php
-class Conexao
-{	
+class Conexao{	
 	/**
 	 * host de onde esta o banco de dados
 	 * @var string
@@ -43,4 +42,27 @@ class Conexao
 	 * @since 1.1
 	 */
 	public $connecterror;
+
+	public function getBanco(){
+	  return $this->banco;
+	}
+	public function setBanco($banco){
+	  $this->banco = $banco;
+	  return $this;
+	}
+	
+	public function getLink(){
+		return $this->link;
+	}
+	public function setLink($novoLink){
+		$this->link = $novoLink;
+	}
+
+	public function getConnecterror(){
+	  return $this->connecterror;
+	}
+	public function setConnecterror($connecterror){
+	  $this->connecterror = $connecterror;
+	  return $this;
+	}
 }
