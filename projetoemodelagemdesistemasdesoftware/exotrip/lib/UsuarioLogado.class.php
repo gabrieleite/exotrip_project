@@ -157,7 +157,7 @@ class UsuarioLogado {
 	 */
 	static public function get(){
 
-		$conn = new mysql_i;
+		$conn = new Mysql_i;
 
 		try {
 		
@@ -197,7 +197,7 @@ class UsuarioLogado {
 	 */
 	static private function validar(){
 
-		$conn = new mysql_i;
+		$conn = new Mysql_i;
 
 		try {
 		
