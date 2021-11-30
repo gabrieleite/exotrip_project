@@ -25,7 +25,7 @@
   <script>
     $("a[name=logout]").click(function(){
       SwAlertConfirm.fire({
-        text: "Deseja sair do sisema?"
+        text: "Deseja sair do sistema?"
       }).then((result) => {
         if(result.value)
         {
