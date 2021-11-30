@@ -50,6 +50,10 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="js/sw-mixin.js"></script>
   </head>
   <body>
     
