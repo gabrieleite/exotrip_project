@@ -17,16 +17,19 @@
       Reservar
     </a>
     <div class="right menu">
+      <a name="usuarioLogado" class="ui item">
+        <?php echo  UsuarioLogado::getNome();?>
+      </a>
       <a name="logout" class="ui item">
         Logout
-      </a>
+      </a>      
     </div>
   </div>
 
-  <h1 style="padding: 10px;"><?php echo sprintf("Olá %s", UsuarioLogado::getNome());?></h1>
+  <h1 style="padding: 10px;">Bem vindo ao Exotrip!</h1>
   <div style="padding: 10px;" class="ui grid">
-    <div class="eight wide column">
-      <p style="font-size: 20px">Para realizar sua reserve acesso o menu clicando no botão reservar!</p>
+    <div class="eight wide column computer sixteen wide column mobile">
+      <p style="font-size: 20px">Para realizar sua reserva acesse o menu clicando no botão reservar!</p>
     </div>
   </div>
 <script>

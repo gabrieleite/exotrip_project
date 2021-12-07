@@ -55,12 +55,12 @@
           	</button>
           </div>
 
-          <div class="text-center p-t-12">
+<!--           <div class="text-center p-t-12">
             </span>
             <a class="txt2" href="#">
                 Esqueceu o nome de usuário/Senha?
           	</a>
-          </div>
+          </div> -->
 
           <div class="text-center p-t-136">
             <a class="txt2" href="<?php echo URL;?>/cadastro">
