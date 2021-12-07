@@ -7,6 +7,10 @@ $mysqli = new Mysql_i();
 
 try{
 
+	if(!$mysqli->conectar()){
+		throw new Exception("Não foi possível se conectar ao banco de dados");
+	}		
+
 	if(empty($_POST['post'])){
 		throw new Exception("Preencher corretamente os campos de usuário e senha");
 	}
